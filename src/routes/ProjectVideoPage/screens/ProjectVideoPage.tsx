@@ -337,7 +337,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                                     }
                                 >
                                     <img
-                                        src={`public${category.icon}`}
+                                        src={category.icon}
                                         alt={category.name}
                                         className="h-10 sm:h-12"
                                     />

@@ -139,7 +139,7 @@ export const DirectoryMainPage = (): JSX.Element => {
                                 >
                                     <div className="h-10 sm:h-12 flex items-center justify-center overflow-hidden">
                                         <img
-                                            src={`public${cat.icon}`}
+                                            src={cat.icon}
                                             alt={cat.name}
                                             className="h-full w-auto object-contain border-none outline-none"
                                         />
