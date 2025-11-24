@@ -4,16 +4,16 @@ import { FrontendAPI, Project } from "../../../../lib/utils";
 
 // Category SVG mapping - more comprehensive mapping
 const categorySvgMap: { [key: string]: string } = {
-    DeFi: "public/category/defi.svg",
-    "NFTs & Gaming": "public/category/nft-gaming.svg",
-    "NFT & Gaming": "public/category/nft-gaming.svg", // Alternative naming
-    Infrastructure: "public/category/infrastructure.svg",
-    Tooling: "public/category/tooling.svg",
-    "Open Source": "public/category/opensource.svg",
-    "DAOs & Governance": "public/category/dao-governance.svg",
-    "DAO & Governance": "public/category/dao-governance.svg", // Alternative naming
-    Launchpad: "public/category/launchpad.svg",
-    "Naming Service": "public/category/naming-service.svg",
+    DeFi: "/category/defi.svg",
+    "NFTs & Gaming": "/category/nft-gaming.svg",
+    "NFT & Gaming": "/category/nft-gaming.svg", // Alternative naming
+    Infrastructure: "/category/infrastructure.svg",
+    Tooling: "/category/tooling.svg",
+    "Open Source": "/category/opensource.svg",
+    "DAOs & Governance": "/category/dao-governance.svg",
+    "DAO & Governance": "/category/dao-governance.svg", // Alternative naming
+    Launchpad: "/category/launchpad.svg",
+    "Naming Service": "/category/naming-service.svg",
 };
 
 // Helper to get SVG path or generate fallback

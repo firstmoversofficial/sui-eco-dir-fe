@@ -5,9 +5,11 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
-    plugins: [react(), mode === "development" && screenGraphPlugin()],
-    publicDir: "./static",
-    base: "./",
+    plugins: [react(), mode === "development" && screenGraphPlugin()].filter(
+        Boolean
+    ),
+    publicDir: "./public",
+    base: "/",
     css: {
         postcss: {
             plugins: [tailwind()],
@@ -17,7 +19,7 @@ export default defineConfig(({ mode }) => ({
         // Proxy only for local development
         // In production, the frontend will use VITE_API_BASE_URL from .env
         proxy:
-            process.env.NODE_ENV === "development"
+            mode === "development"
                 ? {
                       "/api/v1": {
                           target: "http://localhost:3001",

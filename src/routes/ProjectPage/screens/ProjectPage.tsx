@@ -97,27 +97,27 @@ export const ProjectPage = (): JSX.Element => {
     const socialButtons = [
         {
             key: "website",
-            icon: "../../../public/socials/website.svg",
+            icon: "/socials/website.svg",
             href: project?.website || project?.socialLinks?.website || null,
         },
         {
             key: "github",
-            icon: "../../../public/socials/github.svg",
+            icon: "/socials/github.svg",
             href: project?.socialLinks?.github || project?.githubUrl || null,
         },
         {
             key: "x",
-            icon: "../../../public/socials/x.svg",
+            icon: "/socials/x.svg",
             href: project?.socialLinks?.twitter || null,
         },
         {
             key: "discord",
-            icon: "../../../public/socials/discord.svg",
+            icon: "/socials/discord.svg",
             href: project?.socialLinks?.discord || null,
         },
         {
             key: "telegram",
-            icon: "../../../public/socials/telegram.svg",
+            icon: "/socials/telegram.svg",
             href: project?.socialLinks?.telegram || null,
         },
     ] as const;
@@ -162,7 +162,7 @@ export const ProjectPage = (): JSX.Element => {
                     <img
                         className="w-full h-full object-cover object-top"
                         alt="Background grid"
-                        src="../../../public/bg-grid.svg"
+                        src="/bg-grid.svg"
                     />
                 </div>
 
@@ -171,7 +171,7 @@ export const ProjectPage = (): JSX.Element => {
                     <img
                         className="w-full h-full"
                         alt="Blur mask"
-                        src="../../../public/blur-mask.svg"
+                        src="/blur-mask.svg"
                     />
                 </div>
 
@@ -381,7 +381,7 @@ export const ProjectPage = (): JSX.Element => {
                         <img
                             className="w-full h-full object-cover"
                             alt="Careers blur mask"
-                            src="../../../public/blur-mask-cr.svg"
+                            src="/blur-mask-cr.svg"
                         />
                     </div>
 

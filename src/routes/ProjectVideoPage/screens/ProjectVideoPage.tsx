@@ -143,7 +143,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                     <img
                         className="w-full h-full object-cover object-top"
                         alt="Background grid"
-                        src="../../../public/bg-grid.svg"
+                        src="/bg-grid.svg"
                     />
                 </div>
 
@@ -152,7 +152,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                     <img
                         className="w-full h-full"
                         alt="Blur mask"
-                        src="../../../public/blur-mask.svg"
+                        src="/blur-mask.svg"
                     />
                 </div>
 
@@ -276,7 +276,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                                                     icons.push(
                                                         <img
                                                             key={`${project.id}-category-${i}`}
-                                                            src={`public/category/${category
+                                                            src={`/category/${category
                                                                 .toLowerCase()
                                                                 .replace(
                                                                     /\s*&\s*/g,
@@ -417,7 +417,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                                                 (category, index) => (
                                                     <img
                                                         key={`${project.id}-category-${index}`}
-                                                        src={`public/category/${category
+                                                        src={`/category/${category
                                                             .toLowerCase()
                                                             .replace(
                                                                 /\s*&\s*/g,
@@ -555,7 +555,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                                             (category, index) => (
                                                 <img
                                                     key={`${category}-${index}`}
-                                                    src={`public/category/${category
+                                                    src={`/category/${category
                                                         .toLowerCase()
                                                         .replace(
                                                             /\s*&\s*/g,
@@ -609,7 +609,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                                 aria-label="Project website"
                             >
                                 <img
-                                    src="public/video/internet-icon.svg"
+                                    src="/video/internet-icon.svg"
                                     alt="website"
                                     className="w-12 h-12"
                                 />
@@ -625,7 +625,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                                 aria-label="Project Twitter"
                             >
                                 <img
-                                    src="public/video/twitter-icon.svg"
+                                    src="/video/twitter-icon.svg"
                                     alt="twitter"
                                     className="w-12 h-12"
                                 />
@@ -640,7 +640,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                             aria-label="Share video link"
                         >
                             <img
-                                src="public/video/share-icon.svg"
+                                src="/video/share-icon.svg"
                                 alt="share"
                                 className="w-12 h-12"
                             />

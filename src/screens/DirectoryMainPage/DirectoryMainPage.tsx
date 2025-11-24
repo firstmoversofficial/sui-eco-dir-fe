@@ -50,7 +50,7 @@ export const DirectoryMainPage = (): JSX.Element => {
                 <img
                     className="w-full h-full object-cover object-top"
                     alt="Background grid"
-                    src="public/bg-grid.svg"
+                    src="/bg-grid.svg"
                 />
             </div>
 
@@ -59,7 +59,7 @@ export const DirectoryMainPage = (): JSX.Element => {
                 <img
                     className="w-full h-full object-cover"
                     alt="Blur mask"
-                    src="public/blur-mask.svg"
+                    src="/blur-mask.svg"
                 />
             </div>
 
