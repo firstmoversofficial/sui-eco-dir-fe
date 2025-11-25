@@ -51,28 +51,3 @@ body {
     object-position: left top;
     object-fit: contain;
 }
-
-/* Custom font styles */
-@font-face {
-    font-family: "TWK Everett-Medium";
-    src: url("https://c.animaapp.com/mdei0unhm8Lc4h/fonts/TWKEverett-Medium.otf")
-        format("opentype");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Satoshi-Medium";
-    src: url("https://c.animaapp.com/mdei0unhm8Lc4h/fonts/Satoshi-Medium.otf")
-        format("opentype");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Satoshi-Regular";
-    src: url("https://c.animaapp.com/mdei0unhm8Lc4h/fonts/Satoshi-Regular.otf")
-        format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
