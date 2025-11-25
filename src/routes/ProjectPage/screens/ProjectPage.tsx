@@ -407,7 +407,7 @@ export const ProjectPage = (): JSX.Element => {
                                         <div className="flex justify-center">
                                             <Button
                                                 variant="outline"
-                                                className="flex h-[50px] items-center justify-center px-8 py-[5px] rounded-[999px] border border-solid border-[#ffffff1a] bg-transparent"
+                                                className="bg-transparent hover:bg-[#ffffff1a] text-white border border-[#ffffff1a] rounded-full h-[50px] px-6 sm:px-8"
                                                 onClick={() =>
                                                     project?.careerPageUrl &&
                                                     window.open(
@@ -416,7 +416,7 @@ export const ProjectPage = (): JSX.Element => {
                                                     )
                                                 }
                                             >
-                                                <span className="bg-[linear-gradient(180deg,rgba(255,255,255,1)_9%,rgba(255,255,255,0.3)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Satoshi-Medium',Helvetica] font-medium text-transparent text-base text-center tracking-[0] leading-6">
+                                                <span className="bg-[linear-gradient(180deg,rgba(255,255,255,1)_9%,rgba(255,255,255,0.3)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Satoshi-Medium',Helvetica] font-medium text-transparent text-base">
                                                     Find Careers
                                                 </span>
                                             </Button>
