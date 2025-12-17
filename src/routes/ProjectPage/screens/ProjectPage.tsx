@@ -140,8 +140,40 @@ export const ProjectPage = (): JSX.Element => {
 
     if (loading) {
         return (
-            <div className="min-h-screen bg-black text-white flex items-center justify-center">
-                Loading project...
+            <div className="min-h-screen bg-black flex items-center justify-center">
+                <div className="flex flex-col items-center gap-4">
+                    <div className="relative w-20 h-20 loader-pulse">
+                        <svg className="w-full h-full" viewBox="0 0 100 100">
+                            <circle
+                                cx="50"
+                                cy="50"
+                                r="45"
+                                fill="none"
+                                stroke="#4DA2FF"
+                                strokeWidth="6"
+                                opacity="0.2"
+                            />
+                            <circle
+                                cx="50"
+                                cy="50"
+                                r="45"
+                                fill="none"
+                                stroke="#4DA2FF"
+                                strokeWidth="6"
+                                strokeLinecap="round"
+                                strokeDasharray="283"
+                                className="loader-fill"
+                                style={{
+                                    transformOrigin: "center",
+                                    transform: "rotate(-90deg)",
+                                }}
+                            />
+                        </svg>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                            <div className="w-3 h-3 rounded-full bg-[#4DA2FF] loader-pulse"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
@@ -182,7 +214,7 @@ export const ProjectPage = (): JSX.Element => {
                         <Link to="/" className="flex items-center gap-2">
                             <div className="w-5 h-[25px] bg-[url(https://c.animaapp.com/mdhad6w5lox3FE/img/vector.svg)] bg-[100%_100%]" />
                             <h1 className="[font-family:'TWK_Everett-Medium',Helvetica] font-medium text-white text-xl tracking-[0] leading-[normal]">
-                                Sui Directory
+                                SuiTube
                             </h1>
                         </Link>
 
@@ -440,7 +472,7 @@ export const ProjectPage = (): JSX.Element => {
                             <div className="flex items-center gap-2">
                                 <div className="w-5 h-[25px] bg-[url(https://c.animaapp.com/mdhad6w5lox3FE/img/vector.svg)] bg-[100%_100%]" />
                                 <div className="[font-family:'TWK_Everett-Medium',Helvetica] font-medium text-white text-xl tracking-[0] leading-[normal]">
-                                    Sui Directory
+                                    SuiTube
                                 </div>
                             </div>
                             <p className="[font-family:'Satoshi-Regular',Helvetica] font-normal text-[#e6ecffb2] text-base tracking-[-0.32px] leading-[25.6px]">

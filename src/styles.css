@@ -51,3 +51,49 @@ body {
     object-position: left top;
     object-fit: contain;
 }
+
+/* Loader animations */
+@keyframes loader-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-pulse {
+    0%,
+    100% {
+        opacity: 0.4;
+        transform: scale(0.95);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes loader-fill {
+    0% {
+        stroke-dashoffset: 283;
+    }
+    50% {
+        stroke-dashoffset: 70;
+    }
+    100% {
+        stroke-dashoffset: 283;
+    }
+}
+
+.loader-spin {
+    animation: loader-spin 1s linear infinite;
+}
+
+.loader-pulse {
+    animation: loader-pulse 1.5s ease-in-out infinite;
+}
+
+.loader-fill {
+    animation: loader-fill 2s ease-in-out infinite;
+}

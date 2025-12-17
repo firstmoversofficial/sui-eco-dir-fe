@@ -24,7 +24,7 @@ export const FeaturedProjectsSection = (): JSX.Element => {
                     <div className="flex items-center space-x-2">
                         <div className="w-5 h-[25px] bg-[url(https://c.animaapp.com/mdei0unhm8Lc4h/img/vector.svg)] bg-[100%_100%]" />
                         <div className="[font-family:'TWK_Everett-Medium',Helvetica] font-medium text-white text-xl">
-                            Sui Directory
+                            SuiTube
                         </div>
                     </div>
 

@@ -7,7 +7,7 @@ export const MainContentSection = (): JSX.Element => {
             <div className="flex items-center gap-2">
                 <div className="w-5 h-[25px] bg-[url(https://c.animaapp.com/mdei0unhm8Lc4h/img/vector.svg)] bg-[100%_100%]" />
                 <h1 className="[font-family:'TWK_Everett-Medium',Helvetica] font-medium text-white text-xl">
-                    Sui Directory
+                    SuiTube
                 </h1>
             </div>
 

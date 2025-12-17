@@ -163,7 +163,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                         <Link to="/" className="flex items-center gap-2">
                             <div className="w-5 h-[25px] bg-[url(https://c.animaapp.com/mdei0unhm8Lc4h/img/vector.svg)] bg-[100%_100%]" />
                             <h1 className="[font-family:'TWK_Everett-Medium',Helvetica] font-medium text-white text-xl">
-                                Sui Directory
+                                SuiTube
                             </h1>
                         </Link>
 
@@ -453,7 +453,7 @@ export const ProjectVideoPage = (): JSX.Element => {
                             <div className="flex items-center gap-2 mb-8">
                                 <div className="w-5 h-[25px] bg-[url(https://c.animaapp.com/mdei0unhm8Lc4h/img/vector.svg)] bg-[100%_100%]" />
                                 <span className="[font-family:'TWK_Everett-Medium',Helvetica] text-xl font-medium text-white">
-                                    Sui Directory
+                                    SuiTube
                                 </span>
                             </div>
                             <p className="[font-family:'Satoshi-Regular',Helvetica] font-normal text-[#e6ecffb2] text-base tracking-[-0.32px] leading-[25.6px]">

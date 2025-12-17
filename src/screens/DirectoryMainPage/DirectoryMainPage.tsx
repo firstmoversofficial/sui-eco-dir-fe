@@ -81,15 +81,30 @@ export const DirectoryMainPage = (): JSX.Element => {
                         Just the best Sui projects, ready to be explored.
                     </p>
 
-                    <Button
-                        className="mt-8 sm:mt-12 md:mt-16 lg:mt-[67px] bg-transparent hover:bg-[#ffffff1a] text-white border border-[#ffffff1a] rounded-full h-[50px] px-6 sm:px-8"
-                        variant="outline"
-                        onClick={handleExploreVideos}
-                    >
-                        <span className="bg-[linear-gradient(180deg,rgba(255,255,255,1)_9%,rgba(255,255,255,0.3)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Satoshi-Medium',Helvetica] font-medium text-transparent text-sm sm:text-base">
-                            Explore Videos
-                        </span>
-                    </Button>
+                    <div className="flex items-center gap-4 mt-8 sm:mt-12 md:mt-16 lg:mt-[67px]">
+                        <Button
+                            className="bg-transparent hover:bg-[#ffffff1a] text-white border border-[#ffffff1a] rounded-full h-[50px] px-6 sm:px-8"
+                            variant="outline"
+                            onClick={handleExploreVideos}
+                        >
+                            <span className="bg-[linear-gradient(180deg,rgba(255,255,255,1)_9%,rgba(255,255,255,0.3)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Satoshi-Medium',Helvetica] font-medium text-transparent text-sm sm:text-base">
+                                Explore Videos
+                            </span>
+                        </Button>
+                        <button
+                            className="bg-transparent text-white rounded-full h-[50px] px-6 sm:px-8 hover:bg-[#ffffff0d] transition-colors"
+                            onClick={() =>
+                                window.open(
+                                    "https://forms.gle/bounty",
+                                    "_blank"
+                                )
+                            }
+                        >
+                            <span className="bg-[linear-gradient(180deg,rgba(255,255,255,1)_9%,rgba(255,255,255,0.3)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Satoshi-Medium',Helvetica] font-medium text-transparent text-sm sm:text-base">
+                                Submit Bounty Video
+                            </span>
+                        </button>
+                    </div>
                 </div>
 
                 {/* Added significant spacing between button and Featured Projects */}
