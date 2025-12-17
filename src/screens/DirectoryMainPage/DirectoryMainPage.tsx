@@ -72,7 +72,7 @@ export const DirectoryMainPage = (): JSX.Element => {
                     className="flex flex-col items-center mt-8 sm:mt-16 md:mt-20 
                 lg:mt-32 px-4 sm:px-6 lg:px-8"
                 >
-                    <h1 className="w-full max-w-[645px] bg-[linear-gradient(175deg,rgba(255,255,255,1)_0%,rgba(153,153,153,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'TWK_Everett-Medium',Helvetica] font-medium text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-center leading-normal">
+                    <h1 className="w-full max-w-[645px] bg-[linear-gradient(175deg,rgba(255,255,255,1)_0%,rgba(153,153,153,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'TWK_Everett-Medium',Helvetica] font-medium text-transparent text-4xl sm:text-5xl md:text-6xl lg:text-[64px] text-center leading-tight sm:leading-normal">
                         Hottest Sui Projects Under One Roof
                     </h1>
 
